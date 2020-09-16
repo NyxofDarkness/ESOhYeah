@@ -1,0 +1,54 @@
+body {
+    background-color: darkslategrey;
+}
+
+header, footer {
+    background-color: darkslategrey;
+    color: rgb(58, 61, 87);
+    text-align: center;
+}
+
+li {
+    border: darkolivegreen solid 3px;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px 40px;
+    background-color: darkolivegreen;
+    color: rgb(58, 61, 87);
+}
+
+section {
+    background-color: darkslategrey;
+    border: darkolivegreen solid;
+    margin: 10px 0px;
+    display: inline-block;
+}
+
+img {
+    border: darkolivegreen solid 1px;
+}
+
+#aldmeri {
+    width: 300px;
+}
+
+#ebonheart {
+    width: 300px;
+}
+
+#daggerfall {
+    width: 300px;
+}
+
+.eso {
+    border-radius: 100px;
+    display: inline-block;
+}
+
+p {
+    border: darkolivegreen solid 10px;
+    display: inline-block;
+    width: 800px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
