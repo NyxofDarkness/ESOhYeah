@@ -11,17 +11,28 @@ function areYoudovahkin(){
     document.write("Did you take my sweet roll?!");
 }
 
-function AskTime(){
-  var confirmAnswer = confirm("Press here if you took my sweet roll?");
-  if (confirmAnswer){
-    alert("Give back my sweet roll, you mudcrab!");
-  } else {
-    alert("Had a stent in the theives guild huh?")
-  }
-
+function askTime(){
+var confirmAnswer = confirm("Press here if you took my sweet roll?");
+if (confirmAnswer){
+  alert("Give back my sweet roll, you mudcrab!");
+} else {
+  alert("Had a stent in the theives guild huh?")
+}
 }
 
 
+function askUserToEnterNumberLessThanTen(){
+  var userAnswer = prompt("enter a number of Arrows < 10");
+  if (userAnswer > 10){
+    alert("You Mudcrab! Wrong!")
+  } else {
+    alert("Glory to you Dovakin!")
+  }
+}
+
+areYoudovahkin();
+askTime();
+askUserToEnterNumberLessThanTen();
 
 // var userName1 = askUserNameQuestion();
 // var userName2 = askUserNameQuestion();
